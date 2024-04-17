@@ -93,7 +93,6 @@ namespace addressbook_web_tests_zuev
 
         private void GoToGroupsPage()
         {
-            //Go to groups page
             driver.FindElement(By.LinkText("groups")).Click();
         }
 

@@ -16,12 +16,7 @@ namespace addressbook_web_tests_zuev
         {
             this.name = name;
         }
-    //    public GroupData(string name, string header, string footer)
-    //     {
-   //        this.name = name;
-   //         this.name = header;
-   //         this.name = footer;
-  //       }
+
         public string Name
         {
             get 
@@ -55,5 +50,6 @@ namespace addressbook_web_tests_zuev
                 footer = value;
             }
         }
+
     }
 }
